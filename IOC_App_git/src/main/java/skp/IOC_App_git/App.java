@@ -12,6 +12,6 @@ public class App {
        int res = App.sum(100,200);
        System.out.println(res);
        
-    
     }
+    
 }
