@@ -1,10 +1,17 @@
 package skp.IOC_App_git;
 
-/**
- * Hello world!
- */
+
 public class App {
+	
+	public static int sum(int x , int y) {
+		return x+y;
+	}
+	
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    	
+       int res = App.sum(100,200);
+       System.out.println(res);
+       
+    
     }
 }
